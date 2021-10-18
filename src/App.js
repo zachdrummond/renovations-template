@@ -1,7 +1,10 @@
+import Navigation from "./Containers/Navigation/Navigation";
+
 function App() {
   return (
-    <div>
-    </div>
+    <>
+      <Navigation />
+    </>
   );
 }
 
