@@ -4,7 +4,7 @@ import NavLinks from "../../Components/NavLinks/NavLinks";
 
 const Navigation = () => {
   return (
-    <Navbar bg="light" sticky="top">
+    <Navbar bg="light" variant="light" sticky="top">
       <Container>
         <Company />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
