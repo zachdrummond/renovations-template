@@ -1,4 +1,4 @@
 const IMAGES = {
-    YourLogoHere: require("./1.png").default,
+    YourLogoHere: require("./YourLogoHere.png").default,
 }
 export default IMAGES;

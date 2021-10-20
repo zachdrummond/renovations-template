@@ -1,9 +1,14 @@
-import IMAGES from "../../images/images"
+import IMAGES from "../../images/images";
 
 const Company = () => {
-    return (
-        <img src={IMAGES.YourLogoHere}/>
-    );
+  return (
+    <img
+      className="img-fluid"
+      alt="Your Logo Here"
+      src={IMAGES.YourLogoHere}
+      width="150"
+    />
+  );
 };
 
 export default Company;
