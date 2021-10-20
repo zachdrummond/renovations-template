@@ -1,5 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Company from "../../Components/Company/Company";
+import Email from "../../Components/Icons/Email";
+import GitHub from "../../Components/Icons/GitHub";
+import House from "../../Components/Icons/House";
+import Phone from "../../Components/Icons/Phone";
 
 const Footer = () => {
   return (
@@ -12,19 +16,26 @@ const Footer = () => {
           <Col>
             <h4>Get in Touch</h4>
             <ul className="list-unstyled">
-              <li>Address</li>
-              <li>Phone</li>
-              <li>Email</li>
+              <li>
+                <House />
+              </li>
+              <li>
+                <Phone />
+              </li>
+              <li>
+                <Email />
+              </li>
             </ul>
           </Col>
         </Row>
         <Row>
           <Col>
             <h5>
-              &copy;{new Date().getFullYear()} | Company Name | All Rights
+              &copy;{new Date().getFullYear()} | Your Company Name | All Rights
               Reserved
             </h5>
-            <span>Website Designed by Zach Drummond </span>
+            <span>Website Designed by </span>
+            <GitHub />
           </Col>
         </Row>
       </Container>
