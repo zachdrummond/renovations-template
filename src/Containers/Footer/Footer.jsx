@@ -7,7 +7,7 @@ import Phone from "../../Components/Icons/Phone";
 
 const Footer = () => {
   return (
-    <footer className="py-3 bg-dark text-light fixed-bottom">
+    <footer className="py-3 bg-dark text-light">
       <Container className="text-center">
         <Row>
           <Col>
