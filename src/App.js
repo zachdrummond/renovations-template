@@ -1,5 +1,5 @@
-import Navigation from "./Containers/Navigation/Navigation";
 import Footer from "./Containers/Footer/Footer"
+import Navigation from "./Containers/Navigation/Navigation";
 
 function App() {
   return (
