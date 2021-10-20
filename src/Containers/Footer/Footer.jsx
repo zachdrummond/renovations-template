@@ -26,7 +26,6 @@ const Footer = () => {
             </h5>
             <span>Website Designed by Zach Drummond </span>
           </Col>
-          <Col></Col>
         </Row>
       </Container>
     </footer>
