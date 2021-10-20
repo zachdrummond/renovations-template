@@ -1,7 +1,8 @@
+import IMAGES from "../../images/images"
 
 const Company = () => {
     return (
-        <img/>
+        <img src={IMAGES.YourLogoHere}/>
     );
 };
 
