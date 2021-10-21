@@ -1,3 +1,4 @@
+import Contact from "./Components/Contact/Contact";
 import Footer from "./Containers/Footer/Footer"
 import Navigation from "./Containers/Navigation/Navigation";
 import Reviews from "./Components/Reviews/Reviews.jsx";
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navigation />
       <Reviews />
+      <Contact />
       <Footer />
     </>
   );
