@@ -5,6 +5,8 @@ import GitHub from "../../Components/Icons/GitHub";
 import House from "../../Components/Icons/House";
 import Phone from "../../Components/Icons/Phone";
 
+// SECTION - Footer
+// SUMMARY - Displays the Footer Section with Company Info, Contact Info, and Design Info
 const Footer = () => {
   return (
     <footer className="py-3 mt-5 bg-dark text-light">
