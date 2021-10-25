@@ -10,6 +10,7 @@ import {
 const Contact = () => {
   return (
     <Container>
+      <h1 className="text-center">Tell Us About Your Project</h1>
       <Form>
         <Row>
           <Col>
