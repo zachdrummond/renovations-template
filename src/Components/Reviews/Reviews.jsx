@@ -3,7 +3,7 @@ import REVIEWS from "./Reviews";
 
 const Reviews = () => {
   return (
-    <Container>
+    <Container id="Reviews">
       <Row className="g-3">
         {REVIEWS.customers.map((review) => {
           return (
