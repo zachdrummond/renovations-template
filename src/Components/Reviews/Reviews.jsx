@@ -4,6 +4,7 @@ import REVIEWS from "./Reviews";
 const Reviews = () => {
   return (
     <Container id="Reviews">
+      <h1 className="text-center">Reviews from Clients</h1>
       <Row className="g-3">
         {REVIEWS.customers.map((review) => {
           return (
