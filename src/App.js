@@ -9,9 +9,11 @@ function App() {
   return (
     <>
       <Navigation />
-      <Slideshow />
-      <Reviews />
-      <Contact />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Slideshow />
+        <Reviews />
+        <Contact />
+      </Suspense>
       <Footer />
     </>
   );
