@@ -1,3 +1,5 @@
+import { Suspense, lazy } from "react";
+const Contact = lazy(() => import("./Components/Contact/Contact"));
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Containers/Footer/Footer";
 import Navigation from "./Containers/Navigation/Navigation";
