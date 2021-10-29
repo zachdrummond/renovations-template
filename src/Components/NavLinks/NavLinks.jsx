@@ -1,5 +1,7 @@
 import { Button, Nav, NavDropdown } from "react-bootstrap";
 
+// SECTION - Navbar
+// SUMMARY - Displays the links to the page, phone number, and quote button
 const NavLinks = () => {
   return (
     <Nav className="mx-auto">
