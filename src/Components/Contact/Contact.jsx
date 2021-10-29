@@ -7,6 +7,8 @@ import {
   Row,
 } from "react-bootstrap";
 
+// SECTION - 
+// SUMMARY - Displays the Contact Section with a header and forms for Name, Phone, Email, Address, Description, and Image Uploads
 const Contact = () => {
   return (
     <Container id="Contact Us">
