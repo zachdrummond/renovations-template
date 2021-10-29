@@ -1,3 +1,4 @@
+// SUMMARY - Displays a house icon with a specific address
 const House = () => {
   return (
     <span>
