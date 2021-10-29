@@ -1,5 +1,7 @@
 import { Carousel } from "react-bootstrap";
 
+// SECTION - 
+// SUMMARY - Displays Bootstrap Carousel of hero images, info, and buttons
 const Slideshow = () => {
   return (
     <Carousel>
