@@ -1,5 +1,7 @@
 import IMAGES from "../../images/images";
 
+// SECTION - Navbar & Footer
+// SUMMARY - Displays the company logo
 const Company = () => {
   return (
     <img
