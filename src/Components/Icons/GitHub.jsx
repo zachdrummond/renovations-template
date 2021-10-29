@@ -1,3 +1,4 @@
+// SUMMARY - Displays the GitHub logo as a link to a GitHub URL
 const GitHub = () => {
   return (
     <a href="https://github.com/zachdrummond" className="text-light" target="_blank" rel="noreferrer">
