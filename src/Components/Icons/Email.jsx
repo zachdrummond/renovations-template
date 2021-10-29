@@ -1,3 +1,4 @@
+// SUMMARY - Displays an email icon as a link to a specific email
 const Email = () => {
   return (
     <a href="mailto: email@email.com" className="text-light">
