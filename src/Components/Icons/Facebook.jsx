@@ -1,3 +1,4 @@
+// SUMMARY - Displays the Facebook logo as a link to a Facebook URL
 const Facebook = () => {
   return (
     <a
