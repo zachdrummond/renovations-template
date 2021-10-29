@@ -1,3 +1,4 @@
+// SUMMARY - Displays a phone icon as a link to call a specific phone number
 const Phone = () => {
   return (
     <a href="tel: +4049928752" className="text-light">
