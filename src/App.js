@@ -1,8 +1,8 @@
-import { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-const Contact = lazy(() => import("./Components/Contact/Contact"));
+import { Suspense, lazy } from "react";
 import Footer from "./Containers/Footer/Footer";
 import Navigation from "./Containers/Navigation/Navigation";
+const Contact = lazy(() => import("./Components/Contact/Contact"));
 const Reviews = lazy(() => import("./Components/Reviews/Reviews.jsx"));
 const Slideshow = lazy(() => import("./Components/Slideshow/Slideshow"));
 
