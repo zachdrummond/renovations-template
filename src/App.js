@@ -1,5 +1,5 @@
 import { Suspense, lazy } from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 const Contact = lazy(() => import("./Components/Contact/Contact"));
 import Footer from "./Containers/Footer/Footer";
 import Navigation from "./Containers/Navigation/Navigation";
@@ -8,7 +8,7 @@ const Slideshow = lazy(() => import("./Components/Slideshow/Slideshow"));
 
 function App() {
   return (
-    <>
+    <Router>
       <Navigation />
       <Suspense fallback={<div>Loading...</div>}>
         <Slideshow />
@@ -16,7 +16,7 @@ function App() {
         <Contact />
       </Suspense>
       <Footer />
-    </>
+    </Router>
   );
 }
 
