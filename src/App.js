@@ -1,4 +1,5 @@
 import { Suspense, lazy } from "react";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 const Contact = lazy(() => import("./Components/Contact/Contact"));
 import Footer from "./Containers/Footer/Footer";
 import Navigation from "./Containers/Navigation/Navigation";
