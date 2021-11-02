@@ -11,9 +11,11 @@ function App() {
     <Router>
       <Navigation />
       <Suspense fallback={<div>Loading...</div>}>
-        <Slideshow />
-        <Reviews />
-        <Contact />
+        <Switch>
+          <Slideshow />
+          <Reviews />
+          <Contact />
+        </Switch>
       </Suspense>
       <Footer />
     </Router>
