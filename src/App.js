@@ -12,6 +12,7 @@ function App() {
       <Navigation />
       <Suspense fallback={<div>Loading...</div>}>
         <Switch>
+          <Route path="/" component={/*Home*/} />
           <Slideshow />
           <Reviews />
           <Contact />
