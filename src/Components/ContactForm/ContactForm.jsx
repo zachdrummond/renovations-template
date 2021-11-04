@@ -9,7 +9,7 @@ import {
 
 // SECTION - 
 // SUMMARY - Displays the Contact Section with a header and forms for Name, Phone, Email, Address, Description, and Image Uploads
-const Contact = () => {
+const ContactForm = () => {
   return (
     <Container id="Contact Us">
       <h1 className="text-center">Tell Us About Your Project</h1>
@@ -66,4 +66,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactForm;
