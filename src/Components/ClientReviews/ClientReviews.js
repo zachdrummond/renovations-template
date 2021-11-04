@@ -1,6 +1,6 @@
 const REVIEWS = {
       // Customer Reviews
-   customers : [
+   client : [
     {
       name: "Person 1",
       feedback:

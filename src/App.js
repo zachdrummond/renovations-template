@@ -3,7 +3,7 @@ import { Suspense, lazy } from "react";
 import Footer from "./Containers/Footer/Footer";
 import Navigation from "./Containers/Navigation/Navigation";
 const Contact = lazy(() => import("./Components/Contact/Contact"));
-const Reviews = lazy(() => import("./Components/Reviews/Reviews.jsx"));
+const Reviews = lazy(() => import("./Components/ClientReviews/ClientReviews"));
 const Slideshow = lazy(() => import("./Components/Slideshow/Slideshow"));
 
 function App() {

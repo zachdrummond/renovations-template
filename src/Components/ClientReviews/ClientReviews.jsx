@@ -1,12 +1,12 @@
 import { Card, Container, Row, Col } from "react-bootstrap";
-import REVIEWS from "./Reviews";
+import REVIEWS from "./ClientReviews";
 
-const Reviews = () => {
+const ClientReviews = () => {
   return (
     <Container id="Reviews">
       <h1 className="text-center">Reviews from Clients</h1>
       <Row className="g-3">
-        {REVIEWS.customers.map((review) => {
+        {REVIEWS.client.map((review) => {
           return (
             <Col md={4}>
               <Card>
@@ -33,4 +33,4 @@ const Reviews = () => {
   );
 };
 
-export default Reviews;
+export default ClientReviews;
