@@ -12,6 +12,7 @@ function App() {
       <Navigation />
       <Suspense fallback={<div>Loading...</div>}>
         <Switch>
+          <Route exact path="/renovations-additions" component={/*RenosAndAdditions*/} />
           <Route exact path="/basements" component={/*Basements*/} />
           <Route exact path="/kitchens" component={/*Kitchens*/} />
           <Route path="/" component={/*Home*/} />
