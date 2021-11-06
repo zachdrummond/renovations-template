@@ -3,6 +3,7 @@ import { Suspense, lazy } from "react";
 import Footer from "./Containers/Footer/Footer";
 import Navigation from "./Containers/Navigation/Navigation";
 const Contact = lazy(() => import("./Components/ContactForm/ContactForm"));
+const Home = lazy(() => import("./Components/Home/Home"));
 const Reviews = lazy(() => import("./Components/ClientReviews/ClientReviews"));
 const Slideshow = lazy(() => import("./Components/Slideshow/Slideshow"));
 
@@ -20,7 +21,7 @@ function App() {
           <Route exact path="/process" component=""/*Process*/ /> 
           <Route exact path="/contact" component=""/*Contact*/ />
           <Route exact path="/reviews" component=""/*Reviews*/ />
-          <Route path="/" component=""/*Home*/ />
+          <Route path="/" component={Home} />
           <Slideshow />
           <Reviews />
           <Contact />
