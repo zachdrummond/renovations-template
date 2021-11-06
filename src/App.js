@@ -15,14 +15,14 @@ function App() {
       <Navigation />
       <Suspense fallback={<div>Loading...</div>}>
         <Switch>
-          <Route exact path="/kitchens" component=""/*Kitchens*/ />
-          <Route exact path="/basements" component=""/*Basements*/ />
-          <Route exact path="/renovations-additions" component=""/*RenosAndAdditions*/ />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/about" component={About} /> 
-          <Route exact path="/process" component={Process} /> 
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/reviews" component={Reviews} />
+          <Route exact path="/renovations-template/kitchens" component=""/*Kitchens*/ />
+          <Route exact path="/renovations-template/basements" component=""/*Basements*/ />
+          <Route exact path="/renovations-template/renovations-additions" component=""/*RenosAndAdditions*/ />
+          <Route exact path="/renovations-template/portfolio" component={Portfolio} />
+          <Route exact path="/renovations-template/about" component={About} /> 
+          <Route exact path="/renovations-template/process" component={Process} /> 
+          <Route exact path="/renovations-template/contact" component={Contact} />
+          <Route exact path="/renovations-template/reviews" component={Reviews} />
           <Route path="/" component={Home} />
         </Switch>
       </Suspense>
