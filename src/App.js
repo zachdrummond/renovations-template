@@ -4,6 +4,7 @@ import Footer from "./Containers/Footer/Footer";
 import Navigation from "./Containers/Navigation/Navigation";
 const Contact = lazy(() => import("./Containers/Contact/Contact"));
 const Home = lazy(() => import("./Containers/Home/Home"));
+const Process = lazy(() => import("./Containers/Process/Process"));
 const Reviews = lazy(() => import("./Containers/Reviews/Reviews"));
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
           <Route exact path="/renovations-additions" component=""/*RenosAndAdditions*/ />
           <Route exact path="/portfolio" component=""/*Portfolio*/ />
           <Route exact path="/about" component=""/*About*/ /> 
-          <Route exact path="/process" component=""/*Process*/ /> 
+          <Route exact path="/process" component={Process} /> 
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/reviews" component={Reviews} />
           <Route path="/" component={Home} />
