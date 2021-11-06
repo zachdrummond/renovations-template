@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Footer from "./Containers/Footer/Footer";
 import Navigation from "./Containers/Navigation/Navigation";
+const About = lazy(() => import("./Containers/About/About"));
 const Contact = lazy(() => import("./Containers/Contact/Contact"));
 const Home = lazy(() => import("./Containers/Home/Home"));
 const Process = lazy(() => import("./Containers/Process/Process"));
