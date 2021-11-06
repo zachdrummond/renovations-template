@@ -3,6 +3,7 @@ import { Suspense, lazy } from "react";
 import Footer from "./Containers/Footer/Footer";
 import Navigation from "./Containers/Navigation/Navigation";
 const Home = lazy(() => import("./Containers/Home/Home"));
+const Reviews = lazy(() => import("./Containers/Reviews/Reviews"));
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route exact path="/about" component=""/*About*/ /> 
           <Route exact path="/process" component=""/*Process*/ /> 
           <Route exact path="/contact" component=""/*Contact*/ />
-          <Route exact path="/reviews" component=""/*Reviews*/ />
+          <Route exact path="/reviews" component={Reviews} />
           <Route path="/" component={Home} />
         </Switch>
       </Suspense>
