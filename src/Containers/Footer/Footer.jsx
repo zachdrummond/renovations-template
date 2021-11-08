@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import Company from "../../Components/Company/Company";
+import CompanyLogo from "../../Components/CompanyLogo/CompanyLogo";
 import Email from "../../Components/Icons/Email";
 import GitHub from "../../Components/Icons/GitHub";
 import House from "../../Components/Icons/House";
@@ -13,7 +13,7 @@ const Footer = () => {
       <Container className="text-center">
         <Row>
           <Col>
-            <Company />
+            <CompanyLogo />
           </Col>
           <Col>
             <h4>Get in Touch</h4>

@@ -1,5 +1,5 @@
 import { Container, Navbar } from "react-bootstrap";
-import Company from "../../Components/Company/Company";
+import CompanyLogo from "../../Components/CompanyLogo/CompanyLogo";
 import NavLinks from "../../Components/NavLinks/NavLinks";
 
 // SECTION - Navbar
@@ -8,7 +8,7 @@ const Navigation = () => {
   return (
     <Navbar bg="light" variant="light" sticky="top">
       <Container>
-        <Company />
+        <CompanyLogo />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <NavLinks />
