@@ -1,4 +1,4 @@
-const Process = () => {
+const ProcessPage = () => {
     return (
         <div>
             <h1>Process</h1>
@@ -6,4 +6,4 @@ const Process = () => {
     );
 };
 
-export default Process;
+export default ProcessPage;
