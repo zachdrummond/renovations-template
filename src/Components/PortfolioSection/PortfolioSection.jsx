@@ -1,4 +1,4 @@
-const SideBySide = () => {
+const PortfolioSection = () => {
     return (
         <div>
             
@@ -6,4 +6,4 @@ const SideBySide = () => {
     );
 };
 
-export default SideBySide;
+export default PortfolioSection;

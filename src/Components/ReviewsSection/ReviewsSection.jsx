@@ -1,7 +1,7 @@
 import { Card, Container, Row, Col } from "react-bootstrap";
 import REVIEWS from "./Reviews";
 
-const Reviews = () => {
+const ReviewsSection = () => {
   return (
     <Container id="Reviews">
       <h1 className="text-center">Reviews from Clients</h1>
@@ -33,4 +33,4 @@ const Reviews = () => {
   );
 };
 
-export default Reviews;
+export default ReviewsSection;
