@@ -6,8 +6,7 @@ import ReviewsSection from "../../Components/ReviewsSection/ReviewsSection";
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>Home</h1>
+    <>
       <HeroCarousel />
       <SideBySideSection />
       <SideBySideSection />
@@ -15,7 +14,7 @@ const HomePage = () => {
       <HowItWorksSection />
       <PortfolioSection />
       <ReviewsSection />
-    </div>
+    </>
   );
 };
 
