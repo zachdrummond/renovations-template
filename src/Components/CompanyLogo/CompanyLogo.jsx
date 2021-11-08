@@ -2,7 +2,7 @@ import IMAGES from "../../images/images";
 
 // SECTION - Navbar & Footer
 // SUMMARY - Displays the company logo
-const Company = () => {
+const CompanyLogo = () => {
   return (
     <img
       className="img-fluid"
@@ -13,4 +13,4 @@ const Company = () => {
   );
 };
 
-export default Company;
+export default CompanyLogo;
