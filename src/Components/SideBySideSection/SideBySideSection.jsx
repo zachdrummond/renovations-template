@@ -2,12 +2,15 @@ import { Col, Container, Row } from "react-bootstrap";
 // SECTION - HomePage
 // SUMMARY - Displays an image, title, and text split horizontally
 const SideBySideSection = ({ id, title, image, text, direction }) => {
+  // SUMMARY - Stacks the title vertically over the text
+  // ARGUMENTS - title (type - string) and text (type - string)
+  // RETURNS - A new object (React Element <div>)
   const AlignTitleText = (title, text) => {
     return (
-      <div>
+      <>
         {title} <hr />
         {text}
-      </div>
+      </>
     );
   };
 
