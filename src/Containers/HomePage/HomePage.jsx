@@ -10,6 +10,7 @@ const HomePage = () => {
       <HeroCarousel />
       <SideBySideSection
         direction="left"
+        title="TITLE"
         image={
           <svg
             className="bd-placeholder-img"
@@ -22,14 +23,10 @@ const HomePage = () => {
             <rect width="100%" height="100%" fill="#777"></rect>
           </svg>
         }
-        text={
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+        text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
             suscipit, consectetur obcaecati commodi vitae soluta quo assumenda
             cumque explicabo illo architecto, nesciunt aut, doloribus veritatis?
-            Eaque, officia. Sit, nostrum molestias.
-          </p>
-        }
+            Eaque, officia. Sit, nostrum molestias."
       />
       <SideBySideSection />
       <SideBySideSection />
