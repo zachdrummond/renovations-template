@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Stack } from "react-bootstrap";
 // SECTION - HomePage
 // SUMMARY - Displays an image, title, and text split horizontally
 const SideBySideSection = ({ id, title, image, text, direction }) => {
@@ -7,15 +7,15 @@ const SideBySideSection = ({ id, title, image, text, direction }) => {
   // RETURNS - A new object (React Element <div>)
   const AlignTitleText = (title, text) => {
     return (
-      <>
+      <Stack>
         <h3>{title}</h3> <hr />
         {text}
-      </>
+      </Stack>
     );
   };
 
   return (
-    <Container>
+    <Container className="my-5">
       <Row>
         <Col>
           {direction === "left"

@@ -4,9 +4,10 @@ import HowItWorksSection from "../../Components/HowItWorksSection/HowItWorksSect
 import PortfolioSection from "../../Components/PortfolioSection/PortfolioSection";
 import ReviewsSection from "../../Components/ReviewsSection/ReviewsSection";
 
+// SUMMARY - 
 const HomePage = () => {
   return (
-    <>
+    <main>
       <HeroCarousel />
       <SideBySideSection
         direction="left"
@@ -71,7 +72,7 @@ const HomePage = () => {
       <HowItWorksSection />
       <PortfolioSection />
       <ReviewsSection />
-    </>
+    </main>
   );
 };
 
