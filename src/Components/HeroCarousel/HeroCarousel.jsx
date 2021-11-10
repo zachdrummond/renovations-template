@@ -1,6 +1,6 @@
 import { Carousel } from "react-bootstrap";
 
-// SECTION - 
+// SECTION - HomePage
 // SUMMARY - Displays Bootstrap Carousel of hero images, info, and buttons
 const HeroCarousel = () => {
   return (
