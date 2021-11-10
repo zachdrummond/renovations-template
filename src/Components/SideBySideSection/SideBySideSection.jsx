@@ -8,7 +8,7 @@ const SideBySideSection = ({ id, title, image, text, direction }) => {
   const AlignTitleText = (title, text) => {
     return (
       <>
-        {title} <hr />
+        <h3>{title}</h3> <hr />
         {text}
       </>
     );
