@@ -16,48 +16,21 @@ const HeroCarousel = ({
   return (
     <Carousel>
       <Carousel.Item>
-        <svg
-          className="bd-placeholder-img"
-          width="100%"
-          height="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-hidden="true"
-          focusable="false"
-        >
-          <rect width="100%" height="100%" fill="#777"></rect>
-        </svg>
+        {image1}
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <svg
-          className="bd-placeholder-img"
-          width="100%"
-          height="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-hidden="true"
-          focusable="false"
-        >
-          <rect width="100%" height="100%" fill="#777"></rect>
-        </svg>
+        {image2}
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <svg
-          className="bd-placeholder-img"
-          width="100%"
-          height="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-hidden="true"
-          focusable="false"
-        >
-          <rect width="100%" height="100%" fill="#777"></rect>
-        </svg>
+        {image2}
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
