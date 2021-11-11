@@ -18,24 +18,22 @@ const HeroCarousel = ({
       <Carousel.Item>
         {image1}
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>{title1}</h3>
+          <p>{caption1}</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         {image2}
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>{title2}</h3>
+          <p>{caption2}</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {image2}
+        {image3}
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>{title3}</h3>
+          <p>{caption3}</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
