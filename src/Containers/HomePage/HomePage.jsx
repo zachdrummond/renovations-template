@@ -14,8 +14,10 @@ const HomePage = () => {
         title1="First Slide Label"
         caption1="Add Caption Here"
         image2={IMAGES.placeholder}
+        title2="Second Slide Label"
         caption2="Add Caption Here"
         image3={IMAGES.placeholder}
+        title3="Third Slide Label"
         caption3="Add Caption Here"
       />
       <SideBySideSection
@@ -45,7 +47,12 @@ const HomePage = () => {
         odio blanditiis sequi est autem dolores, maxime corrupti. 
         Recusandae vero laborum placeat."
       />
-      <HowItWorksSection />
+      <HowItWorksSection
+        card3Title="Love Your New Home"
+        card3Text="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Officiis ut exercitationem quisquam dolor quasi repudiandae sed iste 
+        enim sunt eum tempore architecto nobis, tenetur fugit porro doloribus assumenda ad rem?"
+      />
       <PortfolioSection />
       <ReviewsSection />
     </main>
