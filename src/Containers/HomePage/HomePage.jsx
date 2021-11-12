@@ -53,7 +53,12 @@ const HomePage = () => {
         Officiis ut exercitationem quisquam dolor quasi repudiandae sed iste 
         enim sunt eum tempore architecto nobis, tenetur fugit porro doloribus assumenda ad rem?"
       />
-      <PortfolioSection />
+      <PortfolioSection
+        title="Our"
+        image1={IMAGES.placeholder}
+        image2={IMAGES.placeholder}
+        image3={IMAGES.placeholder}
+      />
       <ReviewsSection />
     </main>
   );
