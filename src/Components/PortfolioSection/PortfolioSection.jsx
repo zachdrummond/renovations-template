@@ -10,6 +10,7 @@ const PortfolioSection = ({title}) => {
         provident adipisci! Molestiae quos pariatur consectetur excepturi
         quisquam fugit facilis odio.
       </p>
+      <Button variant="outline-primary">Find More Inspiration</Button>
     </Container>
   );
 };
