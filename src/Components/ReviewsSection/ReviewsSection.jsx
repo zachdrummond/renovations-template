@@ -3,14 +3,20 @@ import REVIEWS from "./Reviews";
 
 const ReviewsSection = () => {
   return (
-    <Container id="Reviews" className="my-5">
-      <h1 className="text-center">Reviews from Clients</h1>
+    <Container className="my-5 text-center">
+      <h1 className="text-center">Here's What Our Customers Say</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        officia voluptatum illum earum sint labore praesentium! Dolor inventore
+        cupiditate aliquam nulla ipsam sequi, minima eligendi repellendus quia
+        officia, placeat facilis?
+      </p>
       <Row className="g-3">
         {REVIEWS.client.map((review) => {
           return (
             <Col md={4}>
               <Card>
-                <Card.Body className="text-center">
+                <Card.Body>
                   <Card.Text>{review.feedback}</Card.Text>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
