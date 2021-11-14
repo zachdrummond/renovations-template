@@ -44,6 +44,7 @@ const AboutPage = () => {
         odio blanditiis sequi est autem dolores, maxime corrupti. 
         Recusandae vero laborum placeat."
       />
+      <ReviewsSection/>
         </main>
     );
 };
