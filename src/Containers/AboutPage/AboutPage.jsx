@@ -26,6 +26,15 @@ const AboutPage = () => {
         cumque explicabo illo architecto, nesciunt aut, doloribus veritatis?
         Eaque, officia. Sit, nostrum molestias."
       />
+      <SideBySideSection
+        direction="right"
+        title="TITLE"
+        image={IMAGES.placeholder}
+        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Autem architecto, fuga culpa commodi accusantium reprehenderit 
+        omnis fugiat, alias porro sapiente, esse quo necessitatibus 
+        nostrum excepturi? Minus porro voluptatum perferendis exercitationem."
+      />
         </main>
     );
 };
