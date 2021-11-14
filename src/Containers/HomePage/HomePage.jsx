@@ -59,7 +59,7 @@ const HomePage = () => {
         image2={IMAGES.placeholder}
         image3={IMAGES.placeholder}
       />
-      <ReviewsSection />
+      <ReviewsSection/>
     </main>
   );
 };
