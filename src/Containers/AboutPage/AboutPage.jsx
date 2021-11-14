@@ -4,9 +4,9 @@ import SideBySideSection from "../../Components/SideBySideSection/SideBySideSect
 import ReviewsSection from "../../Components/ReviewsSection/ReviewsSection";
 
 const AboutPage = () => {
-    return (
-        <main>
-            <HeroCarousel
+  return (
+    <main>
+      <HeroCarousel
         image1={IMAGES.placeholder}
         title1="First Slide Label"
         caption1="Add Caption Here"
@@ -44,9 +44,9 @@ const AboutPage = () => {
         odio blanditiis sequi est autem dolores, maxime corrupti. 
         Recusandae vero laborum placeat."
       />
-      <ReviewsSection/>
-        </main>
-    );
+      <ReviewsSection />
+    </main>
+  );
 };
 
 export default AboutPage;
