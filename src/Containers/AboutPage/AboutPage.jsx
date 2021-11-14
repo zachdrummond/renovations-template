@@ -35,6 +35,15 @@ const AboutPage = () => {
         omnis fugiat, alias porro sapiente, esse quo necessitatibus 
         nostrum excepturi? Minus porro voluptatum perferendis exercitationem."
       />
+      <SideBySideSection
+        direction="left"
+        title="TITLE"
+        image={IMAGES.placeholder}
+        text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Et, quasi quam cumque neque vitae ducimus nemo labore nostrum 
+        odio blanditiis sequi est autem dolores, maxime corrupti. 
+        Recusandae vero laborum placeat."
+      />
         </main>
     );
 };
