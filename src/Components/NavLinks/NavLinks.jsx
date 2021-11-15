@@ -13,12 +13,12 @@ const NavLinks = () => {
           Home Renovations and Additions
         </NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="/">Portfolio</Nav.Link>
+      <Nav.Link as={NavLink} to="/renovations-template/portfolio">Portfolio</Nav.Link>
       <NavDropdown title="About">
         <NavDropdown.Item as={NavLink} to="/renovations-template/about">About Us</NavDropdown.Item>
-        <NavDropdown.Item href="#">Our Process</NavDropdown.Item>
-        <NavDropdown.Item href="#Contact Us">Contact Us</NavDropdown.Item>
-        <NavDropdown.Item href="#Reviews">Reviews</NavDropdown.Item>
+        <NavDropdown.Item as={NavLink} to="/renovations-template/process">Our Process</NavDropdown.Item>
+        <NavDropdown.Item as={NavLink} to="/renovations-template/contact">Contact Us</NavDropdown.Item>
+        <NavDropdown.Item as={NavLink} to="/renovations-template/reviews">Reviews</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Pricing">
         <NavDropdown.Item href="#">Kitchen Remodeling</NavDropdown.Item>
