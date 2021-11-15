@@ -1,5 +1,5 @@
-import IMAGES from "../../images/images";
 import HeroCarousel from "../../Components/HeroCarousel/HeroCarousel";
+import IMAGES from "../../images/images";
 import SideBySideSection from "../../Components/SideBySideSection/SideBySideSection";
 import ReviewsSection from "../../Components/ReviewsSection/ReviewsSection";
 
