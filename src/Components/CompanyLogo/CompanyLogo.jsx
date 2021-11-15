@@ -5,7 +5,7 @@ import IMAGES from "../../images/images";
 // SUMMARY - Displays the company logo
 const CompanyLogo = () => {
   return (
-    <Link to="/">
+    <Link to="/renovations-template">
       <img
         className="img-fluid"
         alt="Your Logo Here"

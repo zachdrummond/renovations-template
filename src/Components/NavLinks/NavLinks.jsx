@@ -15,9 +15,7 @@ const NavLinks = () => {
       </NavDropdown>
       <Nav.Link href="/">Portfolio</Nav.Link>
       <NavDropdown title="About">
-        <NavDropdown.Item>
-          <NavLink to="/renovations-template/about">About Us</NavLink>
-        </NavDropdown.Item>
+        <NavDropdown.Item as={NavLink} to="/renovations-template/about">About Us</NavDropdown.Item>
         <NavDropdown.Item href="#">Our Process</NavDropdown.Item>
         <NavDropdown.Item href="#Contact Us">Contact Us</NavDropdown.Item>
         <NavDropdown.Item href="#Reviews">Reviews</NavDropdown.Item>
