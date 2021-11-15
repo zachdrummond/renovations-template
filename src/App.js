@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Footer from "./Containers/Footer/Footer";
 import Navigation from "./Containers/Navigation/Navigation";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 const AboutPage = lazy(() => import("./Containers/AboutPage/AboutPage"));
 const ContactPage = lazy(() => import("./Containers/ContactPage/ContactPage"));
 const HomePage = lazy(() => import("./Containers/HomePage/HomePage"));
@@ -12,6 +13,7 @@ const ReviewsPage = lazy(() => import("./Containers/ReviewsPage/ReviewsPage"));
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Navigation />
       <Suspense fallback={<div>Loading...</div>}>
         <Switch>
