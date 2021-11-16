@@ -16,6 +16,15 @@ const ProcessPage = () => {
         title3="Third Slide Label"
         caption3="Add Caption Here"
       />
+      <SideBySideSection
+        direction="left"
+        title="TITLE"
+        image={IMAGES.placeholder}
+        text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+        suscipit, consectetur obcaecati commodi vitae soluta quo assumenda
+        cumque explicabo illo architecto, nesciunt aut, doloribus veritatis?
+        Eaque, officia. Sit, nostrum molestias."
+      />
     </main>
   );
 };
