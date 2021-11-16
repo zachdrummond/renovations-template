@@ -1,5 +1,6 @@
 import IMAGES from "../../images/images";
 import HeroCarousel from "../../Components/HeroCarousel/HeroCarousel";
+import ReviewsSection from "../../Components/ReviewsSection/ReviewsSection";
 
 const PortfolioPage = () => {
   return (
@@ -15,6 +16,7 @@ const PortfolioPage = () => {
         title3="Third Slide Label"
         caption3="Add Caption Here"
       />
+      <ReviewsSection />
     </main>
   );
 };
