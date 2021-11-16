@@ -1,3 +1,4 @@
+import ContactForm from "../../Components/ContactForm/ContactForm";
 import IMAGES from "../../images/images";
 import HeroCarousel from "../../Components/HeroCarousel/HeroCarousel";
 import SideBySideSection from "../../Components/SideBySideSection/SideBySideSection";
@@ -26,6 +27,7 @@ const ContactPage = () => {
         cumque explicabo illo architecto, nesciunt aut, doloribus veritatis?
         Eaque, officia. Sit, nostrum molestias."
       />
+      <ContactForm />
       <ReviewsSection />
     </main>
   );
