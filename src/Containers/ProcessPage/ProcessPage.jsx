@@ -1,6 +1,7 @@
 import IMAGES from "../../images/images";
 import HeroCarousel from "../../Components/HeroCarousel/HeroCarousel";
 import SideBySideSection from "../../Components/SideBySideSection/SideBySideSection";
+import ReviewsSection from "../../Components/ReviewsSection/ReviewsSection";
 
 const ProcessPage = () => {
   return (
@@ -25,6 +26,7 @@ const ProcessPage = () => {
         cumque explicabo illo architecto, nesciunt aut, doloribus veritatis?
         Eaque, officia. Sit, nostrum molestias."
       />
+      <ReviewsSection />
     </main>
   );
 };
