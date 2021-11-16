@@ -26,6 +26,7 @@ const ContactPage = () => {
         cumque explicabo illo architecto, nesciunt aut, doloribus veritatis?
         Eaque, officia. Sit, nostrum molestias."
       />
+      <ReviewsSection />
     </main>
   );
 };
