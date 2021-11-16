@@ -3,7 +3,6 @@ import HeroCarousel from "../../Components/HeroCarousel/HeroCarousel";
 import SideBySideSection from "../../Components/SideBySideSection/SideBySideSection";
 import HowItWorksSection from "../../Components/HowItWorksSection/HowItWorksSection";
 import PortfolioSection from "../../Components/PortfolioSection/PortfolioSection";
-import ReviewsSection from "../../Components/ReviewsSection/ReviewsSection";
 
 // SUMMARY -
 const HomePage = () => {
@@ -59,7 +58,6 @@ const HomePage = () => {
         image2={IMAGES.placeholder}
         image3={IMAGES.placeholder}
       />
-      <ReviewsSection/>
     </main>
   );
 };

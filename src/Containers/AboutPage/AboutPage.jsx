@@ -1,7 +1,6 @@
 import HeroCarousel from "../../Components/HeroCarousel/HeroCarousel";
 import IMAGES from "../../images/images";
 import SideBySideSection from "../../Components/SideBySideSection/SideBySideSection";
-import ReviewsSection from "../../Components/ReviewsSection/ReviewsSection";
 
 const AboutPage = () => {
   return (
@@ -44,7 +43,6 @@ const AboutPage = () => {
         odio blanditiis sequi est autem dolores, maxime corrupti. 
         Recusandae vero laborum placeat."
       />
-      <ReviewsSection />
     </main>
   );
 };

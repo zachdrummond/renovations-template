@@ -2,7 +2,6 @@ import FormSection from "../../Components/FormSection/FormSection";
 import IMAGES from "../../images/images";
 import HeroCarousel from "../../Components/HeroCarousel/HeroCarousel";
 import SideBySideSection from "../../Components/SideBySideSection/SideBySideSection";
-import ReviewsSection from "../../Components/ReviewsSection/ReviewsSection";
 
 const ContactPage = () => {
   return (
@@ -28,7 +27,6 @@ const ContactPage = () => {
         Eaque, officia. Sit, nostrum molestias."
       />
       <FormSection />
-      <ReviewsSection />
     </main>
   );
 };
