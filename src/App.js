@@ -9,6 +9,7 @@ const HomePage = lazy(() => import("./Containers/HomePage/HomePage"));
 const PortfolioPage = lazy(() => import("./Containers/PortfolioPage/PortfolioPage"));
 const ProcessPage = lazy(() => import("./Containers/ProcessPage/ProcessPage"));
 const ReviewsPage = lazy(() => import("./Containers/ReviewsPage/ReviewsPage"));
+const ReviewsSection = lazy(() => import("./Components/ReviewsSection/ReviewsSection"));
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/renovations-template/reviews" component={ReviewsPage} />
           <Route path="/" component={HomePage} />
         </Switch>
+        <ReviewsSection/>
       </Suspense>
       <Footer />
     </Router>
