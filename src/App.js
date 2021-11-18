@@ -5,6 +5,7 @@ import Navigation from "./Containers/Navigation/Navigation";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 const AboutPage = lazy(() => import("./Containers/AboutPage/AboutPage"));
 const ContactPage = lazy(() => import("./Containers/ContactPage/ContactPage"));
+const HeroCarousel = lazy(() => import("./Components/HeroCarousel/HeroCarousel"));
 const HomePage = lazy(() => import("./Containers/HomePage/HomePage"));
 const PortfolioPage = lazy(() => import("./Containers/PortfolioPage/PortfolioPage"));
 const ProcessPage = lazy(() => import("./Containers/ProcessPage/ProcessPage"));
@@ -17,6 +18,7 @@ function App() {
       <ScrollToTop/>
       <Navigation />
       <Suspense fallback={<div>Loading...</div>}>
+        <HeroCarousel/>
         <Switch>
           <Route exact path="/renovations-template/kitchens" component=""/*Kitchens*/ />
           <Route exact path="/renovations-template/basements" component=""/*Basements*/ />
