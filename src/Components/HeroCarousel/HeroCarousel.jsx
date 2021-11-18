@@ -1,39 +1,42 @@
 import { Carousel } from "react-bootstrap";
+import IMAGES from "../../images/images";
 
 // SECTION - HomePage
 // SUMMARY - Displays Bootstrap Carousel of hero images, info, and buttons
-const HeroCarousel = ({
-  image1,
-  title1,
-  caption1,
-  image2,
-  title2,
-  caption2,
-  image3,
-  title3,
-  caption3,
-}) => {
+const HeroCarousel = () => {
   return (
     <Carousel>
       <Carousel.Item>
-        {image1}
+      <img
+      className="d-block w-100"
+      src={IMAGES.placeholder}
+      alt="First slide"
+    />
         <Carousel.Caption>
-          <h3>{title1}</h3>
-          <p>{caption1}</p>
+          <h3>First Slide Label</h3>
+          <p>Add Caption Here</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {image2}
+      <img
+      className="d-block w-100"
+      src={IMAGES.placeholder}
+      alt="First slide"
+    />
         <Carousel.Caption>
-          <h3>{title2}</h3>
-          <p>{caption2}</p>
+        <h3>Second Slide Label</h3>
+          <p>Add Caption Here</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {image3}
+      <img
+      className="d-block w-100"
+      src={IMAGES.placeholder}
+      alt="First slide"
+    />
         <Carousel.Caption>
-          <h3>{title3}</h3>
-          <p>{caption3}</p>
+        <h3>Third Slide Label</h3>
+          <p>Add Caption Here</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
