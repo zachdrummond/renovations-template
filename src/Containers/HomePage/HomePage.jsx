@@ -39,6 +39,7 @@ const HomePage = () => {
         card3Text="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Officiis ut exercitationem quisquam dolor quasi repudiandae sed iste 
         enim sunt eum tempore architecto nobis, tenetur fugit porro doloribus assumenda ad rem?"
+        image={IMAGES.placeholder}
       />
       <PortfolioSection
         title="Our"

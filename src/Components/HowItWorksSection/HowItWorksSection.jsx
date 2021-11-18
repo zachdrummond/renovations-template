@@ -1,6 +1,6 @@
 import { Button, Card, Container, Stack } from "react-bootstrap";
 
-const HowItWorksSection = ({ card3Title, card3Text }) => {
+const HowItWorksSection = ({ card3Title, card3Text, image }) => {
   return (
     <Container className="my-5 text-center">
       <h1>How It Works</h1>
@@ -12,7 +12,8 @@ const HowItWorksSection = ({ card3Title, card3Text }) => {
       </p>
       <Stack direction="horizontal" gap={3} className="mb-4">
         <Card>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+          {image}
           <Card.Body>
             <Card.Title>Phone Consultation</Card.Title>
             <Card.Text>
@@ -24,7 +25,8 @@ const HowItWorksSection = ({ card3Title, card3Text }) => {
           </Card.Body>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+          {image}
           <Card.Body>
             <Card.Title>Design and Renovation</Card.Title>
             <Card.Text>
@@ -36,7 +38,8 @@ const HowItWorksSection = ({ card3Title, card3Text }) => {
           </Card.Body>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+          {image}
           <Card.Body>
             <Card.Title>{card3Title}</Card.Title>
             <Card.Text>{card3Text}</Card.Text>

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Footer from "./Containers/Footer/Footer";
+import IMAGES from "./images/images";
 import Navigation from "./Containers/Navigation/Navigation";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 const AboutPage = lazy(() => import("./Containers/AboutPage/AboutPage"));
@@ -18,7 +19,7 @@ function App() {
       <ScrollToTop/>
       <Navigation />
       <Suspense fallback={<div>Loading...</div>}>
-        <HeroCarousel/>
+        <HeroCarousel image={IMAGES.placeholder}/>
         <Switch>
           <Route exact path="/renovations-template/kitchens" component=""/*Kitchens*/ />
           <Route exact path="/renovations-template/basements" component=""/*Basements*/ />
