@@ -1,5 +1,4 @@
 import IMAGES from "../../images/images";
-import HeroCarousel from "../../Components/HeroCarousel/HeroCarousel";
 import SideBySideSection from "../../Components/SideBySideSection/SideBySideSection";
 import HowItWorksSection from "../../Components/HowItWorksSection/HowItWorksSection";
 import PortfolioSection from "../../Components/PortfolioSection/PortfolioSection";
